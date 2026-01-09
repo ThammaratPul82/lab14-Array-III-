@@ -21,3 +21,21 @@ int main(){
 }
 
 //Do not modify source code above this line 
+void showMatrix(const bool A[N][N]){
+	for (int i=0;i<N;i++){
+		for(int j=0;j<N;j++){
+			cout<<A[i][j]<<" ";
+		}
+		cout<<"\n";
+		
+	}
+}
+
+void inputMatrix(double A[N][N]){
+for (int i=0;i<N;i++){
+	cout<<"Row "<<i+1<<": ";
+		for(int j=0;j<N;j++){
+			cin>>A[i][j];
+		}
+	}
+}
